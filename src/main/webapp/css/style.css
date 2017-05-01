@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+* { 
+	margin:0 auto;
+	padding:0;
+}
+html, body { 
+	height:100%;
+}
+ol { 
+	list-style:none;}
+ul {
+    list-style-image: url(../imgs/10.jpg);}
+#row1{
+	width:1300px;
+	height:50px;
+	background-color:#d6d8d5;}
+	#row2{
+	width:1300px;
+	background-color:#ffffff;}
+.nav{	position: relative;
+margin:0 auto;
+	width:960px;
+	height:75px;
+	}
+.nav li{
+	float:left;
+	height:75px;
+	 width:160px;
+	}
+ .nav li a {
+	 float:left;
+	 height:75px;
+	 width:160px;
+	 text-decoration:none;
+	 background:url(../imgs/nv.jpg) 0 0 repeat-x;
+	 float:left;
+	 	padding:15px 0 15px 0;
+		text-align:center;
+	font-family:"Times New Roman", Times, serif;
+				font-size:21px;
+				font-style:italic;
+				text-decoration:none;
+				color:#FFF;}
+.nav li.first a{ 
+			-webkit-border-top-left-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			-moz-border-radius-topleft: 10px;
+			-moz-border-radius-bottomleft: 10px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			}
+.nav li.last a {
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-moz-border-radius-topright: 10px;
+			-moz-border-radius-bottomright: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			}
+	p.b{
+	text-align:center;}
+	p.a{position: relative;
+margin:0 auto;
+		font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	padding:15px 0 10px 10px;
+	width:940px;
+	height:65px;
+	background:url(../imgs/02.jpg) 0 0 repeat-x;}
+.aa{
+	float:right;
+	padding:-3px 20px 0 0;
+		text-align:center;}
+#content{
+	position:relative;
+	top:-19px;
+	width:1300px;
+	height:760px;
+	background-color:#f6f6f6;}
+#one{
+	width:940px;
+	height:760px;
+	position:relative;
+	margin:0 auto;}
+#sidebar{
+	float:left;
+	width:310px;
+	}
+#center{
+	float:right;
+	width:630px;}
+.s{
+	font-weight:bold;}
+.d{
+	position:relative;
+	float:right;
+	width:390px;}
+.g{position:relative;
+	float:left;
+	width:240px;
+	}
+.right{
+	position:relative;
+	float:right;
+	width:315px;}
+.left{position:relative;
+	float:left;
+	width:315px;
+	}
+.dd{
+	position:relative;
+	float:right;
+	width:260px;
+	}
+.gg{position:relative;
+	float:left;
+	width:50px;	
+	}
+#sidebar{
+	position:relative;
+	top:20px;
+	width:230px;}
+#footer{
+	position:relative;
+	top:-19px;
+width:1300px;
+	height:300px;
+	background-color:#ebebeb;}
+	#footer1{
+	position:relative;
+	top:-19px;
+	width:1300px;
+	height:55px;
+	background-color:#d6d6d6;}
+	
+
+#footer2{
+	position: relative;
+	margin:0px auto; 
+	width:960px;
+	background-color:#d5d5d7;}
+#footer2 a{
+	text-decoration:none;
+	color:#000;}
+.red{
+	color:#ed2542;}
+.bb{
+	vertical-align: middle;
+	float:left;
+	color:#767676;}
+.vlinks{
+	vertical-align: middle;
+	float:left;
+	color:#767676;}
+.cc{font-family:
+	"Comic Sans MS", cursive;
+	float:right;
+	vertical-align: middle;
+	}
+	
+
+.name{
+	font-family:Helvetica, sans-serif;
+	font-size:24px;
+	}
+.news{
+	position:relative;
+	top:20px;
+	font-family:Helvetica, sans-serif;
+	font-size:20px;}
+.Services{
+		padding:15px 0 0 0;
+	text-align:center;
+	width:230px;
+	height:70px;
+		background:url(../imgs/11.jpg) 0 0 repeat-x;
+		font-family:"Times New Roman", Times, serif;
+				font-size:24px;
+				color:#000;
+								font-style:italic;
+				font-weight:bold;
+	}
+.Services a{
+	font-family:"Times New Roman", Times, serif;
+				font-size:24px;
+				color:#000;
+								font-style:italic;
+				font-weight:bold;
+			
+	text-decoration:none;}
+#sidebar li a{
+	text-decoration:none;
+	color:#000;
+}
+.wrapper{
+   overflow:hidden; 
+   zoom:1; 
+   }
+   
+   .wrapper img{
+      float:left;
+      margin-right: 10px; 
+      }
+
+   .wrapper p{
+      display:table; 
+      zoom:1;
+    }
+.wrapper1{
+	position:relative;
+	top:20px;
+   overflow:hidden; 
+   zoom:1; 
+   }
+   
+   .wrapper1 img{
+      float:left;
+      margin-right: 10px; 
+      }
+
+   .wrapper1 p{
+	    float:
+      display:table;
+      zoom:1;
+    }
+#footercenter{
+	width:940px;
+	position:relative;
+	margin:0 auto;}
+.text{
+	font-size:18px;
+		font-family:
+	"Comic Sans MS", cursive;}
+.style{
+    list-style-image: url(../imgs/15.jpg);
+	}
+#related{
+	width:235px;
+	position:relative;
+float:left;}
+#related li a{
+	text-decoration:none;
+	color:#000;
+}
+#address{width:235px;
+position:relative;
+	float:left; }
+#company{width:235px;
+position:relative;
+	 float:left;}
+#company li a{
+	text-decoration:none;
+	color:#000;
+#testmonials{width:235px;
+position:relative;
+float:left;
+	}
+#testmonials{width:235px;
+position:relative;
+float:left;}
+
+
+
